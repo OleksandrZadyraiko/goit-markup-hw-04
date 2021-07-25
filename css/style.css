@@ -59,7 +59,8 @@ h6 {
 }
 .hero {
   background-color: #2f303a;
-  }
+  width: max-content;
+}
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -78,7 +79,11 @@ h6 {
 }
 .advatn {
 }
+.rezerv {
+  visibility: hidden;
+}
 .advatn-list {
+  text-transform: uppercase;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -122,7 +127,7 @@ h6 {
   letter-spacing: 0.03em;
 }
 .footer {
- background: #2f303a;
+  background: #2f303a;
 }
 .footeraddres {
 }
@@ -142,6 +147,7 @@ h6 {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  text-decoration: none;
   color: #fff;
 }
 .footercontact {
@@ -155,6 +161,7 @@ h6 {
   color: #2196f3;
 }
 .portfolio-button {
+  font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
@@ -174,6 +181,7 @@ h6 {
   letter-spacing: 0.06em;
 }
 .portfolio-list-item {
+  color: #757575;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
