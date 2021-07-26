@@ -2,7 +2,8 @@
   --text-color: #757575;
   --background-color: #fff;
 }
-a {
+a,
+footer {
   text-decoration: none;
 }
 body {
@@ -59,16 +60,14 @@ h6 {
 }
 .hero {
   background-color: #2f303a;
-  width: 1600px;
-  height: 600px;
-  left: 0px;
-  top: 80px;
+  width: max-content;
 }
 .hero-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
   color: #fff;
 }
 .hero-title-button {
@@ -77,16 +76,16 @@ h6 {
   line-height: 1.88;
   letter-spacing: 0.06em;
   color: #fff;
-  width: 200px;
-  height: 50px;
-  left: 700px;
-  top: 430px;
   background: #2196f3;
   cursor: pointer;
 }
 .advatn {
 }
+.rezerv {
+  visibility: hidden;
+}
 .advatn-list {
+  text-transform: uppercase;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -130,10 +129,6 @@ h6 {
   letter-spacing: 0.03em;
 }
 .footer {
-  width: 1600px;
-  height: 252px;
-  left: 0px;
-  top: 2097px;
   background: #2f303a;
 }
 .footeraddres {
@@ -150,7 +145,8 @@ h6 {
   color: #fff;
   letter-spacing: 0.03em;
 }
-.address {
+.footeraddres {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -166,7 +162,9 @@ h6 {
 .footercontact:focus {
   color: #2196f3;
 }
+
 .portfolio-button {
+  font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
@@ -186,6 +184,7 @@ h6 {
   letter-spacing: 0.06em;
 }
 .portfolio-list-item {
+  color: #757575;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
