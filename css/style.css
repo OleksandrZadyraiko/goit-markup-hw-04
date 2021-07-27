@@ -21,6 +21,15 @@ h6 {
   color: #212121;
 }
 
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.nav-section {
+  flex-direction: row;
+}
+
 .web {
   font-family: Raleway;
   font-weight: bold;
@@ -35,6 +44,10 @@ h6 {
   font-size: 26px;
   color: black;
   letter-spacing: 0.03em;
+}
+
+.nav-section-list {
+  flex-direction: row;
 }
 .header-list {
   color: #212121;
@@ -107,14 +120,24 @@ h6 {
 .our-work-list {
 }
 .our-team {
+  width: 1600px;
+  background: #f5f4fa;
 }
 .our-team-title {
+  text-align: center;
+
   font-weight: bold;
   font-size: 36px;
   line-height: 1.17;
   letter-spacing: 0.03em;
 }
+
+.our-team-title-list .li {
+  flex-direction: row;
+}
 .our-team-list {
+  flex-direction: row;
+  justify-content: center;
 }
 .our-team-name {
   font-weight: 500;
