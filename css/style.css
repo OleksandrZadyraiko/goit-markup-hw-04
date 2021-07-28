@@ -2,6 +2,14 @@
   --text-color: #757575;
   --background-color: #fff;
 }
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
 a,
 footer {
   text-decoration: none;
@@ -12,6 +20,7 @@ body {
   background-color: var(--background-color);
   line-height: 1.2;
   font-family: Roboto, sans-serif;
+  text-decoration: none;
 }
 h1,
 h2,
@@ -26,6 +35,11 @@ ul {
   list-style: none;
   display: flex;
 }
+.list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
 
 .nav-section {
   display: flex;
@@ -33,6 +47,7 @@ ul {
   align-items: center;
   padding-left: 215px;
   padding-right: 215px;
+  outline: 1px solid blueviolet;
 }
 
 .web {
@@ -42,6 +57,7 @@ ul {
   line-height: 1.2;
   color: #2196f3;
   letter-spacing: 0.03em;
+  outline: 1px solid blueviolet;
 }
 .studio {
   font-family: Raleway;
@@ -49,9 +65,11 @@ ul {
   font-size: 26px;
   color: black;
   letter-spacing: 0.03em;
+  outline: 1px solid blueviolet;
 }
 
 .nav-section-list {
+  outline: 1px solid blueviolet;
 }
 .header-list {
   color: #212121;
@@ -59,6 +77,7 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  outline: 1px solid blueviolet;
 }
 .header-list:hover,
 .header-list:focus {
@@ -67,6 +86,7 @@ ul {
 
 .header-contact {
   margin-left: auto;
+  outline: 1px solid blueviolet;
 }
 .contact {
   font-weight: 500;
@@ -75,6 +95,7 @@ ul {
   letter-spacing: 0.02em;
   color: #757575;
   margin-right: 50px;
+  outline: 1px solid blueviolet;
 }
 .contact:hover,
 .contact:focus {
@@ -82,9 +103,11 @@ ul {
 }
 .hero {
   background-color: #2f303a;
-  width: max-content;
+  height: 600px;
+  text-align: center;
 }
 .hero-title {
+  padding: 200px 452px 0px 452px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -93,6 +116,7 @@ ul {
   color: #fff;
 }
 .hero-title-button {
+  margin-top: 30px;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.88;
@@ -100,13 +124,31 @@ ul {
   color: #fff;
   background: #2196f3;
   cursor: pointer;
+  padding: 10px 32px 10px 32px;
+  min-width: 200px;
+  text-align: center;
+
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .advatn {
+  outline: 1px solid blueviolet;
+}
+.advant-main {
+  outline: 1px solid blueviolet;
+  padding: 94px 215px 94px 215px;
+}
+
+.advant-main-list {
+  outline: 1px solid blueviolet;
+  padding-right: 30px;
+  flex-basis: calc(100% / 4 -30px);
 }
 .rezerv {
   visibility: hidden;
 }
 .advatn-list {
+  outline: 1px solid blueviolet;
   text-transform: uppercase;
   font-weight: bold;
   font-size: 14px;
@@ -114,25 +156,34 @@ ul {
   letter-spacing: 0.03em;
 }
 .advatn-list-invent {
+  outline: 1px solid blueviolet;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
 .our-work {
+  outline: 1px solid blueviolet;
 }
 .our-work-title {
+  outline: 1px solid blueviolet;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.17;
   letter-spacing: 0.03em;
 }
+.our-work-img {
+  outline: 1px solid blueviolet;
+}
 .our-work-list {
+  outline: 1px solid blueviolet;
 }
 .our-team {
+  outline: 1px solid blueviolet;
   width: 1600px;
   background: #f5f4fa;
 }
 .our-team-title {
+  outline: 1px solid blueviolet;
   text-align: center;
 
   font-weight: bold;
@@ -142,13 +193,16 @@ ul {
 }
 
 .our-team-title-list .li {
+  outline: 1px solid blueviolet;
   flex-direction: row;
 }
 .our-team-list {
+  outline: 1px solid blueviolet;
   flex-direction: row;
   justify-content: center;
 }
 .our-team-name {
+  outline: 1px solid blueviolet;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -156,20 +210,25 @@ ul {
   color: #212121;
 }
 .our-team-position {
+  outline: 1px solid blueviolet;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
 .footer {
+  outline: 1px solid blueviolet;
   background: #2f303a;
 }
 .footeraddres {
+  outline: 1px solid blueviolet;
 }
 .footeraddres-list {
+  outline: 1px solid blueviolet;
   font-style: normal;
 }
 
 .footerstudio {
+  outline: 1px solid blueviolet;
   font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
@@ -178,6 +237,7 @@ ul {
   letter-spacing: 0.03em;
 }
 .footeraddres {
+  outline: 1px solid blueviolet;
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -185,6 +245,7 @@ ul {
   color: #fff;
 }
 .footercontact {
+  outline: 1px solid blueviolet;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -196,6 +257,7 @@ ul {
 }
 
 .portfolio-button {
+  outline: 1px solid blueviolet;
   font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -210,12 +272,14 @@ ul {
   background-color: #2196f3;
 }
 .portfolio-list-name {
+  outline: 1px solid blueviolet;
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
 .portfolio-list-item {
+  outline: 1px solid blueviolet;
   color: #757575;
   font-size: 16px;
   line-height: 1.87;
