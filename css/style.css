@@ -137,12 +137,14 @@ ul {
 .advant-main {
   outline: 1px solid blueviolet;
   padding: 94px 215px 94px 215px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .advant-main-list {
   outline: 1px solid blueviolet;
-  padding-right: 30px;
-  flex-basis: calc(100% / 4 -30px);
+
+  width: 300px;
 }
 .rezerv {
   visibility: hidden;
@@ -154,6 +156,7 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
+  padding-bottom: 10px;
 }
 .advatn-list-invent {
   outline: 1px solid blueviolet;
