@@ -340,9 +340,7 @@ ul {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  padding-bottom: 4px;
-  padding-left: 24px;
-  padding-right: 24px;
+  padding: 20px 24px 4px 24px;
 }
 .portfolio-list-item {
   color: #757575;
