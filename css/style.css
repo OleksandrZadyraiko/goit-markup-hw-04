@@ -133,8 +133,7 @@ ul {
 .advatn {
 }
 .advant-main {
-  padding: 94px 215px
-  display: flex;
+  padding: 94px 215px;
 }
 .advant-main-list {
   padding-right: 30px;
@@ -161,7 +160,7 @@ ul {
   letter-spacing: 0.03em;
 }
 .our-work {
-  padding: 94px 215px;
+  padding: 0px 215px 94px 215px;
 }
 .our-work-title {
   font-weight: bold;
