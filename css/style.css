@@ -40,7 +40,6 @@ ul {
   margin: 0;
   list-style: none;
 }
-
 .nav-section {
   display: flex;
   justify-content: space-between;
@@ -50,7 +49,6 @@ ul {
   padding-right: 215px;
   border-bottom: 1px solid #ececec;
 }
-
 .web {
   font-family: Raleway;
   font-weight: bold;
@@ -67,7 +65,6 @@ ul {
   letter-spacing: 0.03em;
   padding-right: 93px;
 }
-
 .nav-section-list {
   width: 294px;
   justify-content: space-between;
@@ -87,7 +84,6 @@ ul {
 .contact:focus {
   color: #2196f3;
 }
-
 .header-contact {
   margin-left: auto;
 }
@@ -104,7 +100,6 @@ ul {
   letter-spacing: 0.02em;
   color: #757575;
 }
-
 .hero {
   background-color: #2f303a;
   height: 600px;
@@ -138,10 +133,9 @@ ul {
 .advatn {
 }
 .advant-main {
-  padding: 94px 215px 94px 215px;
+  padding: 94px 215px
   display: flex;
 }
-
 .advant-main-list {
   padding-right: 30px;
   flex-wrap: wrap;
@@ -198,7 +192,6 @@ ul {
   padding-top: 94px;
   padding-bottom: 50px;
 }
-
 .our-team-title-list {
   flex-direction: row;
   padding-left: 215px;
@@ -236,16 +229,15 @@ ul {
   padding-bottom: 30px;
 }
 .footer {
-  outline: 1px solid blueviolet;
   background: #2f303a;
   height: 252px;
 }
 .footerlogo {
   padding-top: 60px;
   padding-left: 215px;
+  margin-bottom: 9px;
 }
 .footerstudio {
-  outline: 1px solid blueviolet;
   font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
@@ -254,45 +246,36 @@ ul {
   letter-spacing: 0.03em;
 }
 .footeraddres {
-  outline: 1px solid blueviolet;
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #fff;
-  outline: 1px solid blueviolet;
+
   padding-left: 215px;
 }
 .address {
   padding-bottom: 9px;
 }
 .footeraddres-list {
-  outline: 1px solid blueviolet;
   display: inline;
-  padding-bottom: 9px;
-}
-.footeraddres-list:nth-last-child(-n + 1) {
-  padding-bottom: 0;
 }
 .footercontact {
-  outline: 1px solid blueviolet;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-
   color: rgba(255, 255, 255, 0.6);
 }
-/* .footeraddres-list-item {
-  padding-bottom: 9px;
-} */
-/* .footeraddres-list-item:nth-last-child(-n + 1) {
-  padding-bottom: 0;
-} */
+.footeraddres-list-item {
+  margin-bottom: 9px;
+}
+.footeraddres-list-item:nth-last-child(-n + 1) {
+  margin-bottom: 0;
+}
 .footercontact:hover,
 .footercontact:focus {
   color: #2196f3;
 }
-
 .main-conteiner {
   width: 1170px;
   justify-content: center;
@@ -321,7 +304,6 @@ ul {
   justify-content: center;
   margin-right: 8px;
 }
-
 .button-item:nth-last-child(-n + 1) {
   margin-right: 0;
 }
@@ -350,8 +332,8 @@ ul {
 .portfolio-item:nth-last-child(-n + 3) {
   margin-bottom: 0;
 }
-
 .portfolio-item-img {
+  display: block;
   width: 370;
 }
 .portfolio-list-name {
@@ -373,7 +355,6 @@ ul {
   padding-right: 24px;
 }
 .border {
-  padding: 25px 24px;
   border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
