@@ -44,6 +44,12 @@ ul {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
+  display: flex;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .nav-section {
   display: flex;
@@ -68,7 +74,7 @@ ul {
   font-size: 26px;
   color: black;
   letter-spacing: 0.03em;
-  padding-right: 93px;
+  /* padding-right: 93px; */
 }
 .nav-section-list {
   /* width: 294px;
@@ -79,6 +85,12 @@ ul {
   margin-right: 0;
 }
 
+.nav-section-list-item {
+  padding-right: 50px;
+}
+.nav-section-list-item:nth-last-child(-n + 1) {
+  padding-right: 0;
+}
 .header-list {
   color: #212121;
   font-weight: 500;
