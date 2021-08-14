@@ -42,23 +42,26 @@ ul {
 .container {
   width: 1200px;
   margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0px 15px;
   display: flex;
 }
-
 .section {
   padding-top: 94px;
-  padding-bottom: 94px;
+  /* padding-bottom: 94px; */
+}
+.header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  justify-content: space-between;
+  border-bottom: 1px solid #ececec;
 }
 .nav-section {
   display: flex;
-  justify-content: space-between;
+
   align-items: center;
   /* height: 80px;
   padding-left: 215px;
   padding-right: 215px; */
-  border-bottom: 1px solid #ececec;
 }
 .web {
   font-family: Raleway;
@@ -74,23 +77,25 @@ ul {
   font-size: 26px;
   color: black;
   letter-spacing: 0.03em;
+  margin-right: 93px;
   /* padding-right: 93px; */
 }
-.nav-section-list {
+.nav-section-list li:not(:last-child),
+.header-contact li:not(:last-child) {
   /* width: 294px;
   justify-content: space-between; */
   margin-right: 50px;
 }
-.nav-section-list:nth-last-child(-n + 1) {
+/* .nav-section-list:nth-last-child(-n + 1) {
   margin-right: 0;
-}
+} */
 
 .nav-section-list-item {
-  padding-right: 50px;
+  /* padding-right: 50px; */
 }
-.nav-section-list-item:nth-last-child(-n + 1) {
-  padding-right: 0;
-}
+/* .nav-section-list-item:nth-last-child(-n + 1) {
+  padding-right: 0; */
+/* } */
 .header-list {
   color: #212121;
   font-weight: 500;
@@ -109,9 +114,9 @@ ul {
 .header-contact {
   margin-left: auto;
 }
-.header-contact-item {
+/* .header-contact-item {
   margin-right: 50px;
-}
+} */
 .header-contact-item:nth-last-child(-n + 1) {
   margin-right: 0;
 }
@@ -126,8 +131,8 @@ ul {
   background-color: #2f303a;
   height: 600px;
   text-align: center;
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .hero-title {
   /* padding: 200px 452px 0px 452px; */
@@ -137,27 +142,29 @@ ul {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #fff;
+  width: 696px;
+  margin: 0px auto;
+  margin-bottom: 30px;
 }
 .hero-title-button {
-  margin-top: 30px;
-  font-weight: bold;
+  /* margin-top: 30px; */
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.03em;
   color: #fff;
   background: #2196f3;
   cursor: pointer;
-  padding: 10px 32px 10px 32px;
+  padding: 10px 32px;
   min-width: 200px;
-  text-align: center;
-
+  margin: 0;
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .advatn {
 }
 .advant-main {
-  padding: 94px 215px;
+  /* padding: 94px 215px; */
 }
 .advant-main-list {
   padding-right: 30px;
@@ -184,7 +191,7 @@ ul {
   letter-spacing: 0.03em;
 }
 .our-work {
-  padding: 0px 215px 94px 215px;
+  /* padding: 0px 215px 94px 215px; */
 }
 .our-work-title {
   font-weight: bold;
@@ -193,6 +200,7 @@ ul {
   letter-spacing: 0.03em;
   text-align: center;
   padding-bottom: 50px;
+  flex-direction: row;
 }
 .our-work-img {
   display: flex;
