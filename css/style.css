@@ -128,11 +128,14 @@ ul {
   color: #757575;
 }
 .hero {
-  background-color: #2f303a;
+  /* background-color: #2f303a; */
   height: 600px;
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
+  background-image: url(../images/fon.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .hero-title {
   /* padding: 200px 452px 0px 452px; */
